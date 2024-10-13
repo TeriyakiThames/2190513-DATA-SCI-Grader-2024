@@ -119,7 +119,7 @@ def Q7(df):
 
 #  Run to check if it works!
 # def check():
-#     df = pd.read_csv('Data Sci Grader/2.1 Data Prep/src/data/titanic_to_student.csv', index_col=0)
+#     df = pd.read_csv('Data Sci Grader/Midterms/2.1 Data Prep/src/data/titanic_to_student.csv', index_col=0)
 #     print(Q1(df)==445)
 #     print(Q2(df)==10)
 #     print(Q3(df)==432)

@@ -143,7 +143,9 @@ class BankLogistic:
 # **Copy and paste your libraries, class Clustering with modified functions when
 # submitting to the grader. (don’t submit the code below)**
 def main():
-    hw = BankLogistic("Grader 3.2/src/data/bank-st.csv")  # your file path
+    hw = BankLogistic(
+        "Data Sci Grader/Finals/3.2 Logistic Regression/src/data/bank-st.csv"
+    )  # your file path
     print(hw.Q1())
 
 

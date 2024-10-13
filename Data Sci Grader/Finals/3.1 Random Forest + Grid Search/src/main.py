@@ -150,7 +150,7 @@ def main():
 
 # # Testing main()
 # def main():
-#     hw = MushroomClassifier("Grader 3.1/src/data/mushroom2020_dataset.csv")
+#     hw = MushroomClassifier("Data Sci Grader/Finals/3.1 Random Forest + Grid Search/src/data/mushroom2020_dataset.csv")
 #     print(hw.Q1())
 
 if __name__ == "__main__":

@@ -2,7 +2,7 @@ import json
 
 import pandas as pd
 
-vdo_df = pd.read_csv("Data Sci Grader/01_pandas_02/src/data/USvideos.csv")
+vdo_df = pd.read_csv("Data Sci Grader/Midterms/1.2 Pandas/src/data/US_category_id.json")
 
 
 """
@@ -16,7 +16,9 @@ def Q1():
     1. How many rows are there in the GBvideos.csv after removing duplications?
     - To access 'GBvideos.csv', use the path '/data/GBvideos.csv'.
     """
-    vdo_df = pd.read_csv("Data Sci Grader/01_pandas_02/src/data/USvideos.csv")
+    vdo_df = pd.read_csv(
+        "Data Sci Grader/Midterms/1.2 Pandas/src/data/US_category_id.json"
+    )
     vdo_df = vdo_df.drop_duplicates()
     return int(vdo_df.shape[0])
 
