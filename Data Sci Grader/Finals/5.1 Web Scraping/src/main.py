@@ -62,7 +62,7 @@ def Q2(file_path):
 
 # Testing
 def check():
-    file_path = "Grader 5/website.html"
+    file_path = "Data Sci Grader/Finals/5.1 Web Scraping/src/data/website.html"
     # https://dsde.nattee.net/problems/50/get_attachment
     print(Q1(file_path))
     print(Q2(file_path))
